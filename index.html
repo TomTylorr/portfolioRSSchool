@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/voodoo-doll.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+    <title>portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo">
+                <a href="#" class="logo">
+                    <object type="image/svg+xml" data="./assets/svg/logo.svg" class="logo-object">
+                        Your browser does not support SVG
+                     </object>
+                </a>
+            </div>
+            <nav class="header__navigation">
+                <ul class="navigation">
+                    <li><a href="#skills" class="navigation__link" data-language = "skills">Skills</a></li>
+                    <li><a href="#portfolio" class="navigation__link" data-language = "portfolio">Portfolio</a></li>
+                    <li><a href="#video" class="navigation__link" data-language = "video">Video</a></li>
+                    <li><a href="#price" class="navigation__link" data-language = "price">Price</a></li>
+                    <li><a href="#contacts" class="navigation__link" data-language = "contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="header__language">
+                <button class="header__en header__lang header__lang-active">en</button>
+                <span class="header__slash">/</span>
+                <button class="header__ru header__lang">ru</button>
+            </div>
+
+            <div class="theme-color">
+            <a href="#" class="theme-color-link">
+                <!-- <object type="image/svg+xml" data="./assets/svg/carbon_sun.svg" class="carbon-object">
+                    Your browser does not support SVG
+                 </object> -->
+            </a>
+            </div>
+
+            <div class="hamburger" id="hamburger-1">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="container">
+            <section class="hero" id="hero">
+                <div class="hero__content">
+                    <h1 class="hero__title" data-language = "hero-title">Alexa Rise</h1>
+                    <p class="hero__text" data-language = "hero-text">Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise</p>
+                    <button class="hero__button" data-language = "hire">Hire me</button>
+                </div>
+            </section>
+            <section class="skills" id="skills">
+                <div class="section-title-line">
+                    <h2 class="skills__title" data-language = "skills">Skills</h2>
+                </div>               
+                <div class="layout-4-column">
+                    <div class="skill">
+                        <div class="tool__icon-digital">
+                            
+                        </div>
+                        <h3 class="tool__title" data-language = "skill-title-1">Digital photography</h3>
+                        <p class="tool__text" data-language = "skill-text-1">High-quality photos in the studio and on the nature</p>
+                    </div>
+                    <div class="skill">
+                        <div class="tool__icon-video">
+                            
+                        </div>
+                        <h3 class="tool__title" data-language = "skill-title-2">Video shooting</h3>
+                        <p class="tool__text" data-language = "skill-text-2">Capture your moments so that they always stay with you</p>
+                    </div>
+                    <div class="skill">
+                        <div class="tool__icon-retouch">
+                            
+                        </div>
+                        <h3 class="tool__title" data-language = "skill-title-3">Retouch</h3>
+                        <p class="tool__text" data-language = "skill-text-3">I strive to make photography surpass reality</p>
+                    </div>
+                    <div class="skill">
+                        <div class="tool__icon-audio">
+                            
+                        </div>
+                        <h3 class="tool__title" data-language = "skill-title-4">Audio</h3>
+                        <p class="tool__text" data-language = "skill-text-4">Professional sounds recording for video, advertising, portfolio</p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="section-title-line">
+                    <h2 class="portfolio__title" data-language = "portfolio">Portfolio</h2>
+                </div>
+                <ul class="tabs">
+                    <li class="tabs__item"><a class="tabs__link" data-language = "winter" data-season="winter" href="#gallery-img">Winter</a></li>
+                    <li class="tabs__item"><a class="tabs__link" data-language = "spring" data-season="spring" href="#gallery-img">Spring</a></li>
+                    <li class="tabs__item"><a class="tabs__link" data-language = "summer" data-season="summer" href="#gallery-img">Summer</a></li>
+                    <li class="tabs__item"><a class="tabs__link tabs__link-active" data-language = "autumn" data-season="autumn" href="#gallery-img">Autumn</a></li>
+                </ul>
+                <div class="portfolio__gallery">
+                    <img id="#gallery-img" class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img1.jpg" alt="portfolio-img1">
+                    <img class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img2.jpg" alt="portfolio-img2">
+                    <img class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img3.jpg" alt="portfolio-img3">
+                    <img class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img4.jpg" alt="portfolio-img4">
+                    <img class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img5.jpg" alt="portfolio-img5">
+                    <img class="portfolio__gallery-img" src="assets/img/portfolio/portfolio-img6.jpg" alt="portfolio-img6">
+                </div>   
+            </section>
+            <section class="video" id="video">
+                <div class="section-title-line">
+                    <h2 class="video__title" data-language = "video">Video</h2>
+                </div>
+                <div class="video__image-container">
+                    <img class="video__image" src="assets/img/video/video-player.jpg" alt="video-player">
+                    <img class="video__image-mini" src="assets/img/video/video-player-mini.jpg" alt="video-player">
+                    <object type="image/svg+xml" data="./assets/svg/play_hover.svg" class="player-object">
+                        Your browser does not support SVG
+                     </object>
+                </div>           
+            </section>
+            <section class="price" id="price">
+                <div class="section-title-line">
+                    <h2 class="price__title" data-language = "price">Price</h2>
+                </div>                 
+                <div class="price__items">
+                    <div class="price__item">
+                        <h3 class="price__item-title">Standard</h3>
+                        <p class="price__item-cost">500 $</p>
+                        <p class="price__item-text">
+                           <span data-language = "price-description-1-span-1">One location</span> <br>
+                            <span data-language = "price-description-1-span-2">120 photos in color</span> <br>
+                            <span data-language = "price-description-1-span-3">12 photos in retouch</span> <br>
+                            <span data-language = "price-description-1-span-4">Readiness 2-3 weeks</span> <br>
+                            <span data-language = "price-description-1-span-5">Make up, visage</span>
+                        </p>
+                        <button class="price__item-button" data-language = "order1">Order shooting</button>
+                    </div>
+                    <div class="price__item">
+                        <h3 class="price__item-title">Premium</h3>
+                        <p class="price__item-cost">700 $</p>
+                        <p class="price__item-text">
+                           <span data-language = "price-description-2-span-1">One or two locations</span> <br>
+                            <span data-language = "price-description-2-span-2">200 photos in color</span> <br>
+                            <span data-language = "price-description-2-span-3">20 photos in retouch</span> <br>
+                            <span data-language = "price-description-2-span-4">Readiness 1-2 weeks</span> <br>
+                            <span data-language = "price-description-2-span-5">Make up, visage</span>
+                        </p>
+                        <button class="price__item-button" data-language = "order2">Order shooting</button>
+                    </div>
+                    <div class="price__item">
+                        <h3 class="price__item-title">Gold</h3>
+                        <p class="price__item-cost">1000 $</p>
+                        <p class="price__item-text">
+                            <span data-language = "price-description-3-span-1">Three locations or more</span> <br>
+                            <span data-language = "price-description-3-span-2">300 photos in color</span> <br>
+                            <span data-language = "price-description-3-span-3">50 photos in retouch</span> <br>
+                            <span data-language = "price-description-3-span-4">Readiness 1 week</span> <br>
+                            <span data-language = "price-description-3-span-5">Make up, visage, hairstyle</span>
+                        </p>
+                        <button class="price__item-button" data-language = "order3">Order shooting</button>
+                    </div>
+                </div>              
+            </section>
+            <section class="contacts" id="contacts">
+                <div class="contacts__content">
+                    <h2 class="contacts__title" data-language = "contact-me">Contact me</h2>
+                <form action="#" method="POST" class="contacts__form">
+                    <input class="contacts__email" type="email" name="email" placeholder="E-mail">
+                    <input class="contacts__phone" data-language = "phone" type="tel" name="phone" placeholder="Phone">
+                    <textarea class="contacts__textarea" data-language = "textarea" name="question" placeholder="Message"></textarea>
+                    <button class="contacts__button" data-language = "send-message" type="submit">Send message</button>
+                </form>  
+            </div>             
+            </section>
+        </div>
+        
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="footer__github">                
+                <span>©</span>
+                <span>2022</span>
+                <a href="https://github.com/TomTylorr" class="footer__github-link">github</a>
+            </div>
+            <div class="footer__rolling-scopes">
+                <a class="footer__rolling-scopes-link" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+            </div>
+            <ul class="footer__social">
+                <li class="footer__social-item"><a class="footer__social-link" href="#">
+                    <object type="image/svg+xml" data="./assets/svg/inst.svg" class="inst-object">
+                        Your browser does not support SVG
+                     </object>
+                </a></li>
+                <li class="footer__social-item"><a class="footer__social-link" href="#">
+                    <object type="image/svg+xml" data="./assets/svg/fb.svg" class="fb-object">
+                        Your browser does not support SVG
+                     </object>
+                </a></li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <object type="image/svg+xml" data="./assets/svg/tw.svg" class="tw-object">
+                            Your browser does not support SVG
+                         </object>
+                    </a></li>
+                <li class="footer__social-item">
+                    <a class="footer__social-link" href="#">
+                        <object type="image/svg+xml" data="./assets/svg/pinterest.svg" class="pinterest-object">
+                            Your browser does not support SVG
+                         </object>
+                    </a></li>
+            </ul>
+        </div>
+        
+    </footer>
+    <script src="translate.js"></script>
+    <script src="index.js"></script>
+    
+
+</body>
+</html>
